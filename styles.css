@@ -31,16 +31,12 @@ body{
 
 }
 
-.topnav-right a{
+.topnav-right a:hover{
+    color:black; 
+}
+
+.topnav-right a, a:visited, a:active{ 
     padding-right: 10px;
-}
-
-.topnav a:hover{
-    color:black;
-    text-decoration: none;
-}
-
-.topnav a, a:visited, a:active{ 
     color: blue;
 }
 
