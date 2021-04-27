@@ -32,12 +32,15 @@ body{
 }
 
 .topnav-right a:hover{
+    padding-right: 10px;
     color:black; 
+    text-decoration: underline;
 }
 
 .topnav-right a, a:visited, a:active{ 
     padding-right: 10px;
     color: blue;
+    text-decoration: none;
 }
 
 
@@ -66,12 +69,13 @@ body{
 .intro a, a:visited, a:active{
 
     color:blue;
+    text-decoration: none;
     
 }
 
 .intro a:hover{
     color:black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .imagelinks{
@@ -103,19 +107,26 @@ body{
 
 }
 
-.footerbar a, a:visited, a:hover, a:active{
+.footerbar a, a:visited, a:active{
 
-    color:black;
+    color:blue;
     text-align: center;
     /*padding-inline-end: 15px;
     padding-top : 10px;*/
+    text-decoration: none;
 
+}
+
+.footerbar a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-decoration-color: ;
 }
 
 .footerbar p, h3{
 
     color:black;
-
+    
 }
 
 
