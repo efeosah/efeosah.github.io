@@ -1,10 +1,17 @@
-h1 { 
-    color : black;
-    font-style: oblique;
+
+/*General styles*/
+* {
+
+
+    font-family: 'Inconsolata', monospace;
+    color: black;
+
 }
 
+/*Header styles*/
 body{
     overflow-y: scroll;
+    background-color: grey;
 }
 
 .topnav{
@@ -15,6 +22,7 @@ body{
 .topnav-right{
     float : right;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .topnav a:hover{
@@ -27,25 +35,57 @@ body{
 
 }
 
-
+/*Main body styles*/
 .mainbody{
 
-    color:white;
+    color:black;
     text-align :center;
+    text-align: left;
     
+}
+.mainbody p{
 
+    color:black;
 }
 
+.mainbody h1, h2{
+
+    color: black;
+}
+
+.mainbody a{
+
+    color:blue;
+    
+}
+
+.mainbody a:hover{
+    color:purple;
+    text-decoration: none;
+}
+
+.mainbody a:visited{
+    color:blue;
+}
+
+
+
+/*Footer styles*/
 .footerbar{
 
     overflow:hidden;
     text-align:center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
 
 }
 
 .footerbar a{
 
     text-align: center;
+    padding-inline-end: 10px;
+    padding-top : 10px;
 
 }
 
@@ -55,18 +95,5 @@ body{
 
 }
 
-a{
-    color:blue;
-
-}
-
-a:hover{
-    color:purple;
-    text-decoration: none;
-}
-
-a:visited{
-    color:blue;
-}
 
 
