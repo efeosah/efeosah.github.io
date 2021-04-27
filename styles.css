@@ -1,0 +1,71 @@
+h1 { 
+    color : black;
+    font-style: oblique;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+.topnav{
+    overflow:visible;
+    
+}
+
+.topnav-right{
+    float : right;
+    text-align: center;
+}
+
+.topnav a:hover{
+    color:blue;
+}
+
+.topnav a, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.mainbody{
+
+    color:white;
+
+
+}
+
+.footerbar{
+
+    overflow:hidden;
+    text-align:center;
+
+}
+
+.footerbar a{
+
+    text-align: center;
+
+}
+
+.footerbar p{
+
+    color:black;
+
+}
+
+a{
+    color:blue;
+
+}
+
+a:hover{
+    color:purple;
+    text-decoration: none;
+}
+
+a:visited{
+    color:blue;
+}
+
+
