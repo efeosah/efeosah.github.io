@@ -5,7 +5,7 @@
 
     font-family: 'Inconsolata', monospace;
     color: black;
-    
+
 
 }
 
@@ -41,17 +41,20 @@ body{
 
     color:black;
     text-align :center;
-    
-    
+     
 }
+
 .mainbody p{
 
     color:black;
+    font-weight: 200;
+
 }
 
 .mainbody h1, h3{
 
     color: black;
+    
 }
 
 .mainbody a, a:visited{
@@ -61,7 +64,7 @@ body{
 }
 
 .mainbody a:hover{
-    color:purple;
+    color:black;
     text-decoration: none;
 }
 
