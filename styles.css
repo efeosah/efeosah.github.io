@@ -85,13 +85,12 @@ body{
 
 
 #intropane{
-    /*height: 500px;*/
-    height:max-content;
+    height: 502px;
     background-color: white;
 }
 
 #projectpane{
-    height: 450px;
+    height: 400px;
     background-color: blue;
 }
 
