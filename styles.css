@@ -44,7 +44,10 @@ body{
 /*Main body styles*/
 .mainbody{
 
+
+    
     color:black;
+    padding-top: 150px;
     text-align :center;
     text-decoration: none;
     
