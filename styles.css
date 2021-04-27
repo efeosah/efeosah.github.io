@@ -80,7 +80,9 @@ body{
 }
 
 .imagelinks{
+    text-align: center;
     padding-top: 20px;
+    padding-inline-end: 15px;
 }
 
 
@@ -101,21 +103,21 @@ body{
 
     overflow:hidden;
     text-align:center;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
 
 }
 
-.footerbar a{
+.footerbar a a:visited, a:hover, a:active{
 
+    color:black;
     text-align: center;
-    padding-inline-end: 10px;
+    padding-inline-end: 15px;
     padding-top : 10px;
 
 }
 
-.footerbar p{
+.footerbar p, h3{
 
     color:black;
 
