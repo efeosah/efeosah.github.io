@@ -21,9 +21,14 @@ body{
 
 .topnav-right{
     float : right;
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
-    
+    padding-inline-end: 5px;
+
+}
+
+.topnav-right a{
+    padding-right: 7px;
 }
 
 .topnav a:hover{
@@ -54,7 +59,7 @@ body{
 .mainbody h1, h3{
 
     color: black;
-    
+
 }
 
 .mainbody a, a:visited{
