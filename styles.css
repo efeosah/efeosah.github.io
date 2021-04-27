@@ -11,12 +11,11 @@
 /*Header styles*/
 body{
     overflow-y: scroll;
-    background-color: grey;
+    
 }
 
 .topnav{
     overflow:visible;
-
 }
 
 .topnav-right{
@@ -32,7 +31,6 @@ body{
 .topnav a, a:visited, a:active{
     text-decoration: none;
     color: black;
-
 }
 
 /*Main body styles*/
@@ -48,7 +46,7 @@ body{
     color:black;
 }
 
-.mainbody h1, h2{
+.mainbody h1, h2, h3{
 
     color: black;
 }
