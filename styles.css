@@ -9,7 +9,7 @@ body{
 
 .topnav{
     overflow:visible;
-    
+
 }
 
 .topnav-right{
@@ -31,7 +31,8 @@ body{
 .mainbody{
 
     color:white;
-
+    text-align :center;
+    
 
 }
 
