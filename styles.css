@@ -108,7 +108,7 @@ body{
 
 }
 
-.footerbar a a:visited, a:hover, a:active{
+.footerbar a, a:visited, a:hover, a:active{
 
     color:black;
     text-align: center;
