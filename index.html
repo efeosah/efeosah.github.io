@@ -16,7 +16,19 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 
+        <!--Splash-->
 
+        <link rel="stylesheet" href="node_modules/splash-screen/dist/splash-screen-[theme].min.css">
+        <script src="node_modules/splash-screen/dist/splash-screen-[theme].min.js"></script>
+
+        <script>
+            const theme = window['splash-screen-[theme]'];
+            //enable with no arg.
+            theme.enable();
+            //destroy the splash
+            wait(2);
+            theme.destroy();
+        </script>
         <title>Portfolio Efe Osah</title>
 
     </head>
