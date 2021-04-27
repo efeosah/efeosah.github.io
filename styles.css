@@ -84,12 +84,13 @@ body{
 }
 
 
-#intro{
-    height: 500px;
+#intropane{
+    /*height: 500px;*/
+    height:max-content;
     background-color: white;
 }
 
-#project{
+#projectpane{
     height: 450px;
     background-color: blue;
 }
