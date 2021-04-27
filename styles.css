@@ -9,6 +9,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*Header styles*/
 body{
     overflow-y: scroll;
@@ -42,40 +46,52 @@ body{
 
 
 /*Main body styles*/
-.mainbody{
+.intro{
 
-
-    
     color:black;
     padding-top: 150px;
     text-align :center;
     text-decoration: none;
     
-     
 }
 
-.mainbody p{
+.intro p{
 
     color:black;
     font-weight: 800;
 
 }
 
-.mainbody h1, h3{
+.intro h1, h3{
 
     color: black;
 
 }
 
-.mainbody a, a:visited{
+.intro a, a:visited{
 
     color:blue;
     
 }
 
-.mainbody a:hover{
+.intro a:hover{
     color:black;
     
+}
+
+.imagelinks{
+    padding-top: 20px;
+}
+
+
+#intro{
+    height: 500px;
+    background-color: white;
+}
+
+#project{
+    height: 450px;
+    background-color: blue;
 }
 
 
