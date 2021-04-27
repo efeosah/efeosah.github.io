@@ -5,6 +5,7 @@
 
     font-family: 'Inconsolata', monospace;
     color: black;
+    
 
 }
 
@@ -22,16 +23,16 @@ body{
     float : right;
     padding-top: 20px;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
 }
 
 .topnav a:hover{
-    color:blue;
+    color:black;
 }
 
-.topnav a, a:visited, a:active{
+.topnav a, a:visited{
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 
@@ -48,7 +49,7 @@ body{
     color:black;
 }
 
-.mainbody h1, h2, h3{
+.mainbody h1, h3{
 
     color: black;
 }
