@@ -18,16 +18,17 @@
 
         <!--Splash-->
 
-        <link rel="stylesheet" href="node_modules/splash-screen/dist/splash-screen-[theme].min.css">
-        <script src="node_modules/splash-screen/dist/splash-screen-[theme].min.js"></script>
+        
+        <link rel="stylesheet" href="node_modules/splash-screen/dist/splash-screen.min.css">
+        <script src="node_modules/splash-screen/dist/splash-screen.min.js"></script>
 
         <script>
-            const theme = window['splash-screen-[windcatcher]'];
-            //enable with no arg.
-            theme.enable();
+            const splash = window['splash-screen'];
+            //enable with a specific theme.
+            //Possible themes are: 'tailing', 'audio-wave', 'windcatcher', 'spinner-section', 'spinner-section-far', 'circular'.
+            splash.enable('tailing');
             //destroy the splash
-            wait(3);
-            theme.destroy();
+            splash.destroy();
         </script>
         <title>Portfolio Efe Osah</title>
 
