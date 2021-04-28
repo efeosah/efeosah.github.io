@@ -20,26 +20,34 @@ body{
 .topnav{
     overflow:visible;
     position:fixed;
-    top : 0;
-    width: 100%;
+    top : 3vh;
+    width : 100%;
 }
 
-.topnav-right{
+.topnav-logo{
+    float : left;
+    margin : 0 0 10px 0
+
+}
+
+.topnav-links{
     float : right;
     
     /*padding-top: 15px;*/
     text-align: center;
+    margin : 0 50px 0 0
+    
     /*margin-inline-end: 100px;*/
 }
 
-.topnav-right a:hover{
-    padding-right: 10px;
+.topnav-links a:hover{
+    
     color:black; 
     text-decoration: underline;
 }
 
-.topnav-right a, a:visited, a:active{ 
-    padding-right: 10px;
+.topnav-links a, a:visited, a:active{ 
+    
     color: blue;
     text-decoration: none;
 }
@@ -47,6 +55,7 @@ body{
 .topnav-rightlist{
     text-align:center;
     display: inline-block;
+    
 }
 
 @media only screen and (max-width: 500px){
