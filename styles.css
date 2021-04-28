@@ -112,7 +112,7 @@ body{
 
 .intro h1{
     color: black;
-    
+
 }
 
 
@@ -170,6 +170,10 @@ body{
     color:black;
     font-weight: 900;
 }
+.education p{
+    color:black;
+    font-weight: 500;
+}
 
 
 .project{
@@ -177,8 +181,13 @@ body{
 }
 
 .project p{
-    font-weight: 900;
+    font-weight: 500;
     color:black;
+}
+
+.project h{
+    color:black;
+    font-weight : 900;
 }
 
 
