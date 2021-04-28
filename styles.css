@@ -26,8 +26,15 @@ body{
 
 .topnav-logo{
     float : left;
-    margin : 0 0 10px 0
+    margin : 0 0 10px 0;
+    transition: transform .2s;
 
+}
+
+.topnav-logo a:hover{
+
+    transform: scale(1.5);
+    
 }
 
 .topnav-links{
@@ -35,7 +42,8 @@ body{
     
     /*padding-top: 15px;*/
     text-align: center;
-    margin : 0 50px 0 0
+    margin : 0 50px 0 0;
+    transition: transform .2s;
     
     /*margin-inline-end: 100px;*/
 }
@@ -44,6 +52,7 @@ body{
     
     color:black; 
     text-decoration: underline;
+    transform: scale(1.5);
 }
 
 .topnav-links a, a:visited, a:active{ 
