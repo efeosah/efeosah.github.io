@@ -42,6 +42,11 @@ body{
     text-decoration: none;
 }
 
+.topnav-rightlist{
+    text-align:center;
+    display: inline-block;
+}
+
 
 /*Main body styles*/
 .intro{
