@@ -50,9 +50,26 @@ body{
 
     .topnav-right{
         float : right;
-        padding-top: 10px;
+        /*padding-top: 10px;*/
         text-align: center;
         margin-inline-end: 10px;
+    }
+
+    .topnav-right a:hover{
+        padding-right: 10px;
+        color:black; 
+        text-decoration: underline;
+    }
+    
+    .topnav-right a, a:visited, a:active{ 
+        padding-right: 10px;
+        color: blue;
+        text-decoration: none;
+    }
+    
+    .topnav-rightlist{
+        text-align:center;
+        display: inline-block;
     }
 
 }
