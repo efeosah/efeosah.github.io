@@ -8,6 +8,7 @@
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -100,6 +101,7 @@ body{
     color:black;
     padding-top: 150px;
     text-align :center;
+    scroll-snap-type: proximity;
     
 }
 
@@ -155,6 +157,7 @@ body{
 #educationpane{
     height: 100vh;
     width:100vw;
+    scroll-snap-type: proximity;
     /*
     background-color: grey;
     border-style: dotted;
@@ -165,11 +168,14 @@ body{
 
 .education{
     text-align: center;
+    scroll-snap-type: mandatory;
 }
+
 .education h1{
     color:black;
     font-weight: 900;
 }
+
 .education p{
     color:black;
     font-weight: 500;
