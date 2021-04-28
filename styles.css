@@ -27,8 +27,7 @@ body{
     float : right;
     padding-top: 15px;
     text-align: center;
-    padding-inline-end: 5px;
-
+    margin-inline-end: 100px;
 }
 
 .topnav-right a:hover{
