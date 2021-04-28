@@ -1,22 +1,20 @@
 
 /*General styles*/
+
 * {
-
-
     font-family: 'Inconsolata', monospace;
     color: black;
-
-
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-/*Header styles*/
 body{
     overflow-y: scroll;   
 }
+
+/*Header styles*/
 
 .topnav{
     overflow:visible;
@@ -126,6 +124,26 @@ body{
     background-color: blue;
 }
 
+#educationpane{
+    height: 700px;
+    background-color: grey;
+}
+
+.education{
+    text-align: center;
+}
+.education p{
+    color:black;
+    font-weight: 900;
+}
+.project{
+    text-align:center;
+}
+
+.project p{
+    font-weight: 900;
+    color:black;
+}
 
 
 /*Footer styles*/
@@ -151,7 +169,6 @@ body{
 .footerbar a:hover{
     color:grey;
     text-decoration: underline;
-    text-decoration-color: ;
 }
 
 .footerbar p, h3{
