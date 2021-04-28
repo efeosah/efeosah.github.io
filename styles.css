@@ -19,13 +19,14 @@ body{
 
 .topnav{
     overflow:visible;
+    position:fixed;
     top : 0;
     width: 100%;
 }
 
 .topnav-right{
     float : right;
-    position:fixed;
+    
     /*padding-top: 15px;*/
     text-align: center;
     /*margin-inline-end: 100px;*/
