@@ -15,8 +15,7 @@ html{
 
 /*Header styles*/
 body{
-    overflow-y: scroll;
-    
+    overflow-y: scroll;   
 }
 
 .topnav{
@@ -45,6 +44,17 @@ body{
 .topnav-rightlist{
     text-align:center;
     display: inline-block;
+}
+
+@media only screen and (max-width: 500px){
+
+    .topnav-right{
+        float : right;
+        padding-top: 10px;
+        text-align: center;
+        margin-inline-end: 10px;
+    }
+
 }
 
 
