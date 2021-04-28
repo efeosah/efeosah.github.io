@@ -11,13 +11,17 @@ html{
 }
 
 body{
-    overflow-y: scroll;   
+    overflow-y: scroll; 
+    overflow-x:hidden;  
 }
 
 /*Header styles*/
 
 .topnav{
     overflow:visible;
+    position:fixed;
+    top : 0;
+    width: 100%;
 }
 
 .topnav-right{
@@ -45,7 +49,14 @@ body{
 }
 
 @media only screen and (max-width: 500px){
-
+    
+    .topnav{
+        overflow:visible;
+        position:fixed;
+        top : 0;
+        width: 100%;
+    }
+    
     .topnav-right{
         float : right;
         /*padding-top: 10px;*/
@@ -115,27 +126,42 @@ body{
 
 
 #intropane{
-    height: 502px;
-    background-color: white;
+    height:100vh;
+    scroll-behavior: inherit;
+    width:auto;
+    /*background-color: white;*/
 }
 
-#projectpane{
-    height: 400px;
-    background-color: blue;
+#projectpane {
+    /*height: 520px;*/
+    height: 75vh;
+    width: 100vw;
+
+    
+
+    /*background-color: blue;*/
 }
 
 #educationpane{
-    height: 700px;
+    height: 100vh;
+    width:100vw;
+    /*
     background-color: grey;
+    border-style: dotted;
+    border-color: gold;
+    */
+
 }
 
 .education{
     text-align: center;
 }
-.education p{
+.education h1{
     color:black;
     font-weight: 900;
 }
+
+
 .project{
     text-align:center;
 }
