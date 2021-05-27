@@ -20,6 +20,8 @@ html{
     background: rgb(34,195,81);
     background: linear-gradient(280deg, rgba(34,195,81,1) 0%, rgba(0,83,156,1) 26%, rgba(255,214,98,1) 100%);
     
+
+    background : #033561;
     width : 100vw;
     
 
@@ -57,7 +59,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 body::-webkit-scrollbar-track{
 
-    background-color: transparent;
+    background-color: #033561;
+    
+    
 }
 
 
@@ -245,7 +249,7 @@ body::-webkit-scrollbar-track{
 }
 
 #aboutmepane{
-    height: 75vh;
+    height: 53vh;
     width: 100vw;
 }
 
