@@ -1,13 +1,14 @@
 const carouselText = [
   
-  {text: "a Game Developer", color: "orange"},
-  {text: "a Front End Developer", color: "yellow"}
-  
+  {text: "a Game Developer", color: "#FFD662FF"},
+  {text: "a Front End Developer", color: "#FFD662FF"}
+
 ]
 
-$( document ).ready(async function() {
+$(document).ready(async function() {
   carousel(carouselText, "#feature-text")
 });
+
 
 async function typeSentence(sentence, eleRef, delay = 100) {
   const letters = sentence.split("");
